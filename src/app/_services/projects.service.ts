@@ -6,11 +6,11 @@ import { Project } from '../_models/Project';
 })
 export class ProjectsService {
   projects: Project[] = [
-    {id: 0, name: "Lost Duckling", summary: "Summary - Made w Unity :)", imagePath: "src/assets/Aliens Defense.png"},
-    {id: 1, name: "Fallen Umbrella", summary: "Summary - Made w Unity :)", imagePath: "image path.. fill in later"},
-    {id: 2, name: "Monster Cleaning", summary: "Summary - Made w Unity :)", imagePath: "image path.. fill in later"},
-    {id: 3, name: "Aliens Defense", summary: "Summary - Made w Unity :)", imagePath: "image path.. fill in later"},
-    {id: 4, name: "Hood Search", summary: "Summary - Made w Unity :)", imagePath: "image path.. fill in later"},
+    {id: 0, name: "Lost Duckling", summary: "Summary - Made w Unity :)", imagePath: "../../assets/Lost Duckling.png",},
+    {id: 1, name: "Fallen Umbrella", summary: "Summary - Made w Unity :)", imagePath: "../../assets/Fallen Umbrella.png"},
+    {id: 2, name: "Monster Cleaning", summary: "Summary - Made w Unity :)", imagePath: "../../assets/Monster Cleaning.png"},
+    {id: 3, name: "Aliens Defense", summary: "Summary - Made w Unity :)", imagePath: "../../assets/Aliens Defense.png"},
+    {id: 4, name: "Hood Search", summary: "Summary - Made w Unity :)", imagePath: "../../assets/Hood Search.png"},
   ];
   constructor() { }
 
