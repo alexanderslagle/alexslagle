@@ -12,9 +12,11 @@ import { BioComponent } from './bio/bio.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProjectCardComponent } from './project-card/project-card.component';
 import { LostDucklingComponent } from './lost-duckling/lost-duckling.component';
+import { FallenUmbrellaComponent } from './fallen-umbrella/fallen-umbrella.component';
+import { HouseCatComponent } from './house-cat/house-cat.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, NavComponent, HomeComponent, PortfolioComponent, BioComponent, ContactComponent, ProjectCardComponent, LostDucklingComponent],
+  declarations: [AppComponent, HeaderComponent, NavComponent, HomeComponent, PortfolioComponent, BioComponent, ContactComponent, ProjectCardComponent, LostDucklingComponent, FallenUmbrellaComponent, HouseCatComponent],
   imports: [BrowserModule, BrowserAnimationsModule, AppRoutingModule],
   bootstrap: [AppComponent]
 })

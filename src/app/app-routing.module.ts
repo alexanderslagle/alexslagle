@@ -5,6 +5,7 @@ import { BioComponent } from './bio/bio.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
 import { LostDucklingComponent } from './lost-duckling/lost-duckling.component';
+import { FallenUmbrellaComponent } from './fallen-umbrella/fallen-umbrella.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path: 'bio', component: BioComponent},
   {path: 'contact', component: ContactComponent},
   {path: 'portfolio/lost-duckling', component: LostDucklingComponent},
+  {path: 'portfolio/fallen-umbrella', component: FallenUmbrellaComponent},
   {path: '**', component: HomeComponent, pathMatch: 'full'}
 ]
 

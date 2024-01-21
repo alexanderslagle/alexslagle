@@ -3,7 +3,7 @@ export interface Project {
     name: string;
     summary: string;
     imagePath: string;
+    routerLink: string;
     //description: string;
     //projectLink: string;
-    //pictures: string[];
 }

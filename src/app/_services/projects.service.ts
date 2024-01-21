@@ -6,11 +6,14 @@ import { Project } from '../_models/Project';
 })
 export class ProjectsService {
   projects: Project[] = [
-    {id: 0, name: "Lost Duckling", summary: "Summary - Made w Unity :)", imagePath: "../../assets/Lost Duckling.png",},
-    {id: 1, name: "Fallen Umbrella", summary: "Summary - Made w Unity :)", imagePath: "../../assets/Fallen Umbrella.png"},
-    {id: 2, name: "Monster Cleaning", summary: "Summary - Made w Unity :)", imagePath: "../../assets/Monster Cleaning.png"},
-    {id: 3, name: "Aliens Defense", summary: "Summary - Made w Unity :)", imagePath: "../../assets/Aliens Defense.png"},
-    {id: 4, name: "Hood Search", summary: "Summary - Made w Unity :)", imagePath: "../../assets/Hood Search.png"},
+    {id: 0, name: "Lost Duckling", summary: "Puzzle game", imagePath: "../../assets/Lost Duckling.png", routerLink: "/portfolio/lost-duckling"},
+    {id: 1, name: "Fallen Umbrella", summary: "Platformer", imagePath: "../../assets/Fallen Umbrella.png", routerLink: "/portfolio/fallen-umbrella"},
+    {id: 2, name: "Monster Cleaning", summary: "First person shooter", imagePath: "../../assets/Monster Cleaning.png", routerLink: "/portfolio/monster-cleaning"},
+    {id: 3, name: "Aliens Defense", summary: "Tap defense", imagePath: "../../assets/Aliens Defense.png", routerLink: "/portfolio/aliens-defense"},
+    {id: 4, name: "Hood Search", summary: "Find the hidden objects", imagePath: "../../assets/Hood Search.png", routerLink: "/portfolio/hood-search"},
+    {id: 5, name: "An Elf's Tune", summary: "RPG", imagePath: "../../assets/An Elf's Tune.png", routerLink: "/portfolio/hood-search"},
+    {id: 6, name: "House Cat", summary: "Endless runner", imagePath: "../../assets/House Cat.png", routerLink: "/portfolio/house-cat"},
+    {id: 7, name: "Battle Ship", summary: "Two-week coding exercise", imagePath: "../../assets/Battle Ship.png", routerLink: "/portfolio/battle-ship"},
   ];
   constructor() { }
 
