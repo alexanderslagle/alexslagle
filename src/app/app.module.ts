@@ -14,9 +14,14 @@ import { ProjectCardComponent } from './project-card/project-card.component';
 import { LostDucklingComponent } from './lost-duckling/lost-duckling.component';
 import { FallenUmbrellaComponent } from './fallen-umbrella/fallen-umbrella.component';
 import { HouseCatComponent } from './house-cat/house-cat.component';
+import { MonsterCleaningComponent } from './monster-cleaning/monster-cleaning.component';
+import { BattleShipComponent } from './battle-ship/battle-ship.component';
+import { AnElfsTuneComponent } from './an-elfs-tune/an-elfs-tune.component';
+import { AliensDefenseComponent } from './aliens-defense/aliens-defense.component';
+import { HoodSearchComponent } from './hood-search/hood-search.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, NavComponent, HomeComponent, PortfolioComponent, BioComponent, ContactComponent, ProjectCardComponent, LostDucklingComponent, FallenUmbrellaComponent, HouseCatComponent],
+  declarations: [AppComponent, HeaderComponent, NavComponent, HomeComponent, PortfolioComponent, BioComponent, ContactComponent, ProjectCardComponent, LostDucklingComponent, FallenUmbrellaComponent, HouseCatComponent, MonsterCleaningComponent, BattleShipComponent, AnElfsTuneComponent, AliensDefenseComponent, HoodSearchComponent],
   imports: [BrowserModule, BrowserAnimationsModule, AppRoutingModule],
   bootstrap: [AppComponent]
 })

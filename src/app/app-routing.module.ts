@@ -6,6 +6,12 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
 import { LostDucklingComponent } from './lost-duckling/lost-duckling.component';
 import { FallenUmbrellaComponent } from './fallen-umbrella/fallen-umbrella.component';
+import { AliensDefenseComponent } from './aliens-defense/aliens-defense.component';
+import { HoodSearchComponent } from './hood-search/hood-search.component';
+import { AnElfsTuneComponent } from './an-elfs-tune/an-elfs-tune.component';
+import { HouseCatComponent } from './house-cat/house-cat.component';
+import { MonsterCleaningComponent } from './monster-cleaning/monster-cleaning.component';
+import { BattleShipComponent } from './battle-ship/battle-ship.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -14,6 +20,12 @@ const routes: Routes = [
   {path: 'contact', component: ContactComponent},
   {path: 'portfolio/lost-duckling', component: LostDucklingComponent},
   {path: 'portfolio/fallen-umbrella', component: FallenUmbrellaComponent},
+  {path: 'portfolio/monster-cleaning', component: MonsterCleaningComponent},
+  {path: 'portfolio/aliens-defense', component: AliensDefenseComponent},
+  {path: 'portfolio/hood-search', component: HoodSearchComponent},
+  {path: 'portfolio/an-elfs-tune', component: AnElfsTuneComponent},
+  {path: 'portfolio/house-cat', component: HouseCatComponent},
+  {path: 'portfolio/battle-ship', component: BattleShipComponent},
   {path: '**', component: HomeComponent, pathMatch: 'full'}
 ]
 
