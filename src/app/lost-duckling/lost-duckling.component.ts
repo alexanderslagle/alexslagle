@@ -8,12 +8,11 @@ import { ProjectsService } from '../_services/projects.service';
   styleUrls: ['./lost-duckling.component.css']
 })
 export class LostDucklingComponent implements OnInit {
-  project = {} as Project;
+  specificProject = {} as Project;
 
   constructor(private projectService : ProjectsService) { }
 
   ngOnInit(): void {
-    this.project = this.projectService.GetProjectById(0);
-
+    this.specificProject = this.projectService.GetProjectById(0);
   }
 }

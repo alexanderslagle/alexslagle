@@ -19,9 +19,10 @@ import { BattleShipComponent } from './battle-ship/battle-ship.component';
 import { AnElfsTuneComponent } from './an-elfs-tune/an-elfs-tune.component';
 import { AliensDefenseComponent } from './aliens-defense/aliens-defense.component';
 import { HoodSearchComponent } from './hood-search/hood-search.component';
+import { ProjectPageComponent } from './project-page/project-page.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, NavComponent, HomeComponent, PortfolioComponent, BioComponent, ContactComponent, ProjectCardComponent, LostDucklingComponent, FallenUmbrellaComponent, HouseCatComponent, MonsterCleaningComponent, BattleShipComponent, AnElfsTuneComponent, AliensDefenseComponent, HoodSearchComponent],
+  declarations: [AppComponent, HeaderComponent, NavComponent, HomeComponent, PortfolioComponent, BioComponent, ContactComponent, ProjectCardComponent, LostDucklingComponent, FallenUmbrellaComponent, HouseCatComponent, MonsterCleaningComponent, BattleShipComponent, AnElfsTuneComponent, AliensDefenseComponent, HoodSearchComponent, ProjectPageComponent],
   imports: [BrowserModule, BrowserAnimationsModule, AppRoutingModule],
   bootstrap: [AppComponent]
 })
