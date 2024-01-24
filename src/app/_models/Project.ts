@@ -1,9 +1,9 @@
 export interface Project {
     id: number;
     name: string;
-    summary: string;
+    description: string;
     imagePath: string;
     routerLink: string;
-    //description: string;
-    //projectLink: string;
+    summary: string;
+    youtubeLink: string;
 }
