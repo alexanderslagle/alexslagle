@@ -14,7 +14,6 @@ import { MonsterCleaningComponent } from './monster-cleaning/monster-cleaning.co
 import { BattleShipComponent } from './battle-ship/battle-ship.component';
 
 const routes: Routes = [
-  {path: 'home', component: HomeComponent},
   {path: 'portfolio', component: PortfolioComponent},
   {path: 'bio', component: BioComponent},
   {path: 'contact', component: ContactComponent},
