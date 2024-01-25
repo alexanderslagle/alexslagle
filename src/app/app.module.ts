@@ -21,10 +21,16 @@ import { AliensDefenseComponent } from './aliens-defense/aliens-defense.componen
 import { HoodSearchComponent } from './hood-search/hood-search.component';
 import { ProjectPageComponent } from './project-page/project-page.component';
 import { SafePipe } from "./_services/safe.pipe";
+import {BreadcrumbModule} from 'xng-breadcrumb';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, NavComponent, HomeComponent, PortfolioComponent, BioComponent, ContactComponent, ProjectCardComponent, LostDucklingComponent, FallenUmbrellaComponent, HouseCatComponent, MonsterCleaningComponent, BattleShipComponent, AnElfsTuneComponent, AliensDefenseComponent, HoodSearchComponent, ProjectPageComponent, SafePipe],
-  imports: [BrowserModule, BrowserAnimationsModule, AppRoutingModule],
+  declarations: [AppComponent, HeaderComponent, NavComponent, HomeComponent,
+     PortfolioComponent,BioComponent, ContactComponent, ProjectCardComponent,
+      LostDucklingComponent, FallenUmbrellaComponent, HouseCatComponent,
+       MonsterCleaningComponent, BattleShipComponent, AnElfsTuneComponent,
+        AliensDefenseComponent, HoodSearchComponent, ProjectPageComponent,
+        SafePipe],
+  imports: [BrowserModule, BrowserAnimationsModule, AppRoutingModule, BreadcrumbModule],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
