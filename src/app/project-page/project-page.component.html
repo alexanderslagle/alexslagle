@@ -16,17 +16,21 @@
                 <p><b>Platforms: </b> Apple App Store and Google Play.</p>
                 <p><b>Role: </b> Game Designer, Game Programmer, and Project Lead.</p>
                 <p><b>Tools Used: </b> Unity, C#, Azure DevOps, Git, Draw.IO.</p>
-            <table>
+            <table *ngIf =project.releasedOnAppStores>
                 <tr>
                   <td>
-                    <img src="../../assets/App Store.png" width="200px" height="auto">
+                    <a href="{{project.appleAppStoreLink}}" target="_blank">
+                      <img src="../../assets/App Store.png" width="150px" height="auto">
+                    </a>
                     <p></p>
                   </td>
                 </tr>
                 <tr>
-                    <td>
-                      <img src="../../assets/Google Play.png" width="200px" height="auto">
-                    </td>
+                  <td>
+                    <a href="{{project.googlePlayLink}}" target="_blank">
+                      <img src="../../assets/Google Play.png" width="150px" height="auto">
+                    </a>
+                  </td>
                   </tr>
               </table>
             </div>

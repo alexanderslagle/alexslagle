@@ -6,4 +6,7 @@ export interface Project {
     routerLink: string;
     summary: string;
     youtubeLink: string;
+    appleAppStoreLink: string;
+    googlePlayLink: string;
+    releasedOnAppStores: boolean;
 }
