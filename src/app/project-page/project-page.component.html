@@ -13,8 +13,8 @@
             </div>
             <div class="container">
                 <p>{{project.summary}}</p>
-                <p><b>Platforms: </b> Apple App Store and Google Play.</p>
-                <p><b>Role: </b> Game Designer, Game Programmer, and Project Lead.</p>
+                <p><b>Platforms: </b> {{project.platforms}}</p>
+                <p><b>Role: </b> {{project.role}}</p>
                 <p><b>Tools Used: </b> Unity, C#, Azure DevOps, Git, Draw.IO.</p>
             <table *ngIf =project.releasedOnAppStores>
                 <tr>
@@ -38,9 +38,9 @@
         <!-- Right Column-->
         <div class ="col-lg shadow border m-1 rounded">
             <div class="text-center">
-                <iframe style="margin-top: 10px;" width="315" height="560"
+                <iframe style="margin-top: 10px;" width="{{project.youtubeWidth}}" height="{{project.youtubeHeight}}"
                 [src]="myTrustedUrl"
-                title="Lost Duckling"
+                title="{{project.name}}"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
