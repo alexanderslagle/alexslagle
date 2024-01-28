@@ -3,6 +3,7 @@ export interface Project {
     name: string;
     description: string;
     platforms: string;
+    toolsUsed: string;
     role: string;
     imagePath: string;
     routerLink: string;
