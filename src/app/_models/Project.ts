@@ -12,6 +12,6 @@ export interface Project {
     appleAppStoreLink: string;
     googlePlayLink: string;
     releasedOnAppStores: boolean;
-    youtubeWidth: number;
-    youtubeHeight: number;
+    youtubeWidth: string;
+    youtubeHeight: string;
 }
